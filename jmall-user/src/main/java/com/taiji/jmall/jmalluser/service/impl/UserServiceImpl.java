@@ -1,8 +1,8 @@
 package com.taiji.jmall.jmalluser.service.impl;
 
-import com.taiji.jmall.jmalluser.bean.UmsMember;
+import com.taiji.jmall.bean.UmsMember;
 import com.taiji.jmall.jmalluser.mapper.UserMapper;
-import com.taiji.jmall.jmalluser.service.UserService;
+import com.taiji.jmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

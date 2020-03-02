@@ -5,7 +5,7 @@
 
 <!-- namespace：命名空间，用于隔离sql，还有一个很重要的作用，后面会讲 -->
 <mapper namespace="com.taiji.jmall.jmalluser.mapper.UserMapper">
-    <select id="selectAllUser" resultType="com.taiji.jmall.jmalluser.bean.UmsMember">
+    <select id="selectAllUser" resultType="com.taiji.jmall.bean.UmsMember">
         select t.* from ums_member t;
     </select>
 

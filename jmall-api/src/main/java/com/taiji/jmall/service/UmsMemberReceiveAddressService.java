@@ -1,6 +1,6 @@
-package com.taiji.jmall.jmalluser.service;
+package com.taiji.jmall.service;
 
-import com.taiji.jmall.jmalluser.bean.UmsMemberReceiveAddress;
+import com.taiji.jmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
 package com.taiji.jmall.jmalluser.service.impl;
 
-import com.taiji.jmall.jmalluser.bean.UmsMemberReceiveAddress;
+import com.taiji.jmall.bean.UmsMemberReceiveAddress;
 import com.taiji.jmall.jmalluser.mapper.UmsMemberReceiveAddressMapper;
-import com.taiji.jmall.jmalluser.service.UmsMemberReceiveAddressService;
+import com.taiji.jmall.service.UmsMemberReceiveAddressService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;

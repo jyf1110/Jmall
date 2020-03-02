@@ -1,4 +1,4 @@
-package com.taiji.jmall.jmalluser.bean;
+package com.taiji.jmall.bean;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
