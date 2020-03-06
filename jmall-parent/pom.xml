@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.4.RELEASE</version>
+        <version>1.5.21.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -33,7 +33,8 @@
         <jsoup.version>1.11.2</jsoup.version>
         <httpclient.version>4.5.5</httpclient.version>
         <commons-lang3.version>3.7</commons-lang3.version>
-         <jedis.version>2.9.0</jedis.version>
+        <mapper-starter.version>1.2.3</mapper-starter.version>
+        <jedis.version>2.9.0</jedis.version>
         <jest.version>5.3.3</jest.version>
         <jna.version>4.5.1</jna.version>
         <beanUtils.version>1.9.3</beanUtils.version>
@@ -50,7 +51,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>dubbo</artifactId>
-                <version>2.6.0</version>
+                <version>${dubbo.version}</version>
             </dependency>
 
             <dependency>
@@ -110,6 +111,13 @@
                 <version>${commons-lang3.version}</version>
             </dependency>
 
+
+            <dependency>
+                <groupId>tk.mybatis</groupId>
+                <artifactId>mapper-spring-boot-starter</artifactId>
+                <version>${mapper-starter.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
@@ -139,6 +147,8 @@
 
         </dependencies>
     </dependencyManagement>
+
+
 
 
 

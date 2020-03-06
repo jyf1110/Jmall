@@ -1,6 +1,9 @@
 package com.taiji.jmall.bean;
 
-public class UmsMember {
+import java.io.Serializable;
+
+public class UmsMember implements Serializable
+{
     private String  id;
     private String  memberLevelId;
     private String  username;
