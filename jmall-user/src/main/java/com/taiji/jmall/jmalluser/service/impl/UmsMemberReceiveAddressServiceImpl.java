@@ -1,4 +1,4 @@
-package com.taiji.jmall.jmalluser.service;
+package com.taiji.jmall.jmalluser.service.impl;
 
 import com.taiji.jmall.bean.UmsMemberReceiveAddress;
 import com.taiji.jmall.jmalluser.mapper.UmsMemberReceiveAddressMapper;

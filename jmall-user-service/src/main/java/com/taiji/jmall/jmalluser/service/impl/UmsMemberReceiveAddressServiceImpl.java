@@ -1,16 +1,16 @@
-package com.taiji.jmall.jmalluser.service;
+package com.taiji.jmall.jmalluser.service.impl;
 
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.alibaba.dubbo.config.annotation.Service;
+ import com.alibaba.dubbo.config.annotation.Service;
 import com.taiji.jmall.bean.UmsMemberReceiveAddress;
 import com.taiji.jmall.jmalluser.mapper.UmsMemberReceiveAddressMapper;
 import com.taiji.jmall.service.UmsMemberReceiveAddressService;
- import tk.mybatis.mapper.entity.Example;
+import org.springframework.beans.factory.annotation.Autowired;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 @Service
 public class UmsMemberReceiveAddressServiceImpl implements UmsMemberReceiveAddressService {
-    @Reference
+    @Autowired
     UmsMemberReceiveAddressMapper umsMemberReceiveAddressMapper;
     @Override
     public List<UmsMemberReceiveAddress> getUmsMemberReceiveAddressByUserId(String userId) {
